@@ -1,3 +1,48 @@
+$cor-fundo: #EEE;
+$cor-fonte: #333; 
+$borda-padrao: 10px;
+$fundo-padrao: #CCC;
+
+
 body{
-    background-color: #CCC;
+    background-color: $cor-fundo;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    border: $borda-padrao solid #000;
+    background-color: $fundo-padrao;
+}
+.retangulo{
+    width: 300px;
+    height: 200px;
+    border: $borda-padrao solid #000;
+    background-color: $fundo-padrao;
+}
+
+nav{
+    background-color: $cor-fundo;
+    height: 100px;
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li{
+        display: inline-block;
+
+        a{
+            display: block;
+            background-color: $fundo-padrao;
+            padding: 10px;
+            text-decoration: none;
+            color: $cor-fonte;
+        }
+    }
+
+
+
 }

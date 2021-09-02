@@ -1,3 +1,37 @@
 body {
+  background-color: #EEE;
+}
+
+.quadrado {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #000;
   background-color: #CCC;
+}
+
+.retangulo {
+  width: 300px;
+  height: 200px;
+  border: 10px solid #000;
+  background-color: #CCC;
+}
+
+nav {
+  background-color: #EEE;
+  height: 100px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: block;
+  background-color: #CCC;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
 }
