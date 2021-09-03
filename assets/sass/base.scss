@@ -1,24 +1,13 @@
-@import 'reset';
-
 $cor-fundo: #EEE;
 $cor-fonte: #333; 
 $borda-padrao: 10px;
 $fundo-padrao: #CCC;
 
-
-
-
-.quadrado{
-    width: 200px;
-    height: 200px;
-    border: $borda-padrao solid #000;
-    background-color: $fundo-padrao;
-}
-.retangulo{
-    width: 300px;
-    height: 200px;
-    border: $borda-padrao solid #000;
-    background-color: $fundo-padrao;
+@mixin girar($graus) {
+    transform: rotate($graus);
+    -webkit-transform: rotate($graus);
+    -moz-transform: rotate($graus);
+    -ms-transform: rotate($graus);
 }
 
 nav{
@@ -33,7 +22,7 @@ nav{
 
     li{
         display: inline-block;
-
+        @include girar(30deg);
         a{
             display: block;
             background-color: $fundo-padrao;
@@ -42,7 +31,5 @@ nav{
             color: $cor-fonte;
         }
     }
-
-
 
 }
