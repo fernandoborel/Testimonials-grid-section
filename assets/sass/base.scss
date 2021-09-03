@@ -1,12 +1,12 @@
+@import 'reset';
+
 $cor-fundo: #EEE;
 $cor-fonte: #333; 
 $borda-padrao: 10px;
 $fundo-padrao: #CCC;
 
 
-body{
-    background-color: $cor-fundo;
-}
+
 
 .quadrado{
     width: 200px;
