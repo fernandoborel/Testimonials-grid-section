@@ -2,6 +2,8 @@ $cor-fundo: #EEE;
 $cor-fonte: #333; 
 $borda-padrao: 10px;
 $fundo-padrao: #CCC;
+$item-width: 250px;
+
 
 @mixin girar($graus) {
     transform: rotate($graus);
@@ -31,5 +33,30 @@ nav{
             color: $cor-fonte;
         }
     }
+}
 
+%item{
+   background-color: #000;
+   height: 40px;
+   margin-bottom: 5px; 
+}
+
+.item{
+    @extend %item;
+    width: $item-width;
+}
+
+.item-duplo {
+    @extend %item;
+    width: $item-width * 2;
+}
+
+.item-metade {
+    @extend %item;
+    width: $item-width / 2;
+}
+
+.item-triplo {
+    @extend %item;
+    width: $item-width * 3;
 }
