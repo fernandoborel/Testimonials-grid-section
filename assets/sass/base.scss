@@ -31,6 +31,10 @@ nav{
             padding: 10px;
             text-decoration: none;
             color: $cor-fonte;
+            &:hover{
+                background-color: #999;
+                color: #fff;
+            }
         }
     }
 }
@@ -83,3 +87,4 @@ nav{
     
     }
 }
+
