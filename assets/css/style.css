@@ -43,3 +43,13 @@ nav li a {
 .item-triplo {
   width: 750px;
 }
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10 {
+  font-size: 14px;
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.item1, .item2, .item3 {
+  font-weight: bold;
+}
