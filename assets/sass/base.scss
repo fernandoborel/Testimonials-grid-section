@@ -1,3 +1,4 @@
+
 /*variáveis*/
 
 $cor: hsl(263, 55%, 52%);
@@ -10,18 +11,23 @@ $fonte: 'Barlow Semi Condensed';
 $h1: 18px;
 $h2: 15px;
 
+body{
+    background-color: $cor4;
+}
 
 /*display 1*/
 main{
     display: grid;
-    max-width: 1440px;
+    max-width: 1240px;
     margin: auto;
+    grid-gap: 20px;
 }
 .purple{
     background-color: $cor;
     grid-column: 1 / 2;
     background-repeat: no-repeat;
-    max-width: 600px;
+    max-width: 700px;
+    height: 300px;
     border-radius: 8px;
     background-image: url('../images/bg-pattern-quotation.svg');
     background-position-x: right;
@@ -69,3 +75,52 @@ main{
 }
 
 /* display 2*/
+
+.cinza{
+    grid-column: 2 / 3;
+    height: 300px;
+    max-width: 300px;
+    background-color: $cor1;
+    border-radius: 8px;
+}
+
+/*display 3*/
+.white1{
+    grid-column: 3 / 4;
+    max-width: 300px;
+    background-color: $cor3;
+    border-radius: 8px;
+}
+.img-white{
+    padding: 30px;
+}
+.title1{
+    margin-left: 10px;
+}
+.title1 h3,
+.title1 h5{
+    font-size: $h2;
+    font-family: $fonte;
+}
+.title1 h3{
+    font-weight: 600;
+    margin-top: 10px;
+    color: $cor1;
+}
+.title1 h5{
+    font-weight: 500;
+    margin-top: -10px;
+    color: $cor4;
+}
+.desc1 h1{
+    font-size: $h1;
+    font-family: $fonte;
+    color: $cor1;
+}
+.desc1 h2{
+    font-size: $h2;
+    font-family: $fonte;
+    color: $cor4;
+}
+
+/*display 4*/

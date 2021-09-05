@@ -1,17 +1,23 @@
 @charset "UTF-8";
 /*variáveis*/
+body {
+  background-color: #cfcfcf;
+}
+
 /*display 1*/
 main {
   display: grid;
-  max-width: 1440px;
+  max-width: 1240px;
   margin: auto;
+  grid-gap: 20px;
 }
 
 .purple {
   background-color: #7541c8;
   grid-column: 1 / 2;
   background-repeat: no-repeat;
-  max-width: 600px;
+  max-width: 700px;
+  height: 300px;
   border-radius: 8px;
   background-image: url("../images/bg-pattern-quotation.svg");
   background-position-x: right;
@@ -68,3 +74,58 @@ main {
 }
 
 /* display 2*/
+.cinza {
+  grid-column: 2 / 3;
+  height: 300px;
+  max-width: 300px;
+  background-color: #48556a;
+  border-radius: 8px;
+}
+
+/*display 3*/
+.white1 {
+  grid-column: 3 / 4;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.img-white {
+  padding: 30px;
+}
+
+.title1 {
+  margin-left: 10px;
+}
+
+.title1 h3,
+.title1 h5 {
+  font-size: 15px;
+  font-family: "Barlow Semi Condensed";
+}
+
+.title1 h3 {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #48556a;
+}
+
+.title1 h5 {
+  font-weight: 500;
+  margin-top: -10px;
+  color: #cfcfcf;
+}
+
+.desc1 h1 {
+  font-size: 18px;
+  font-family: "Barlow Semi Condensed";
+  color: #48556a;
+}
+
+.desc1 h2 {
+  font-size: 15px;
+  font-family: "Barlow Semi Condensed";
+  color: #cfcfcf;
+}
+
+/*display 4*/
