@@ -154,3 +154,30 @@ main {
 }
 
 /*media*/
+@media (max-width: 425px) {
+  main {
+    margin-top: 0;
+  }
+
+  .purple {
+    max-width: 400px;
+  }
+
+  .cinza,
+  .white1,
+  .white2,
+  .blue {
+    grid-column: 1 / 2;
+    grid-row: auto;
+    max-width: 400px;
+  }
+
+  .white2,
+  .blue {
+    margin-top: 0;
+  }
+
+  .blue {
+    margin-left: 0;
+  }
+}
