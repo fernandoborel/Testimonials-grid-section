@@ -8,4 +8,7 @@ Testimonial Grid Section
 
 
 Nesse projeto, utilizei as técnicas de grid e utilizei o framework SASS.
+
 Site responsivo.
+
+Dificuldade encontrada: Posicionamento em grid.
